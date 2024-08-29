@@ -1,6 +1,6 @@
-# CIS AWS efs Sentinel Policies for Terraform
+# CIS AWS EFS Sentinel Policies for Terraform
 This library, provides prescriptive Terraform policies that can be used to establish secure Terraform configuration
-for Amazon Web Services efs Resources included in CIS v1.2.0, v1.4.0 and v3.0.0.
+for Amazon Web Services EFS Resources included in CIS v1.2.0, v1.4.0 and v3.0.0.
 The policies that are contained in this library are based on the [CIS Amazon Web Services Benchmarks](https://docs.aws.amazon.com/securityhub/latest/userguide/cis-aws-foundations-benchmark.html).
 Terraform Cloud/Enterprise users can use the policies in this library to establish a foundational level of security for the services that they are
 adopting in Amazon Web Services.
@@ -15,3 +15,11 @@ adopting in Amazon Web Services.
 ### Policies supported via Sentinel
 
 The following CIS standards have equivalent Sentinel policies written for them. These policies get enforced between the `plan` and `apply` phase whenever a run gets queued in TFC/TFE.
+
+- [efs-encryption-at-rest-enabled](./docs/policies/efs-encryption-at-rest-enabled.md)
+
+### Minimum Sentinel Version Required
+
+```pre
+0.26.x
+```
