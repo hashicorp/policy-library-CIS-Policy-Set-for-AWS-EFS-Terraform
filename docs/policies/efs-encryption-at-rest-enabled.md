@@ -4,6 +4,14 @@
 |---------------------|--------------|
 | Amazon Web Services | Storage      |
 
+## CIS versions that include this policy
+
+| Version | Included |
+|---------|----------|
+| 1.2.0   | &cross;  |
+| 1.4.0   | &cross;  |
+| 3.0.0   | &check;  |
+
 ## Description
 
 This controls ensures that EFS data should be encrypted at rest using AWS KMS.
