@@ -96,7 +96,7 @@ The documentation for the policy libraries consists of Markdown files within thi
 
 The following CIS standards have equivalent Sentinel policies written for them. These policies get enforced between the `plan` and `apply` phase whenever a run gets queued in TFC/TFE.
 
-- [efs-encryption-at-rest-enabled](./docs/policies/efs-encryption-at-rest-enabled.md)
+- efs-encryption-at-rest-enabled
 
 ### Minimum Sentinel Version Required
 
